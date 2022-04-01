@@ -6,6 +6,17 @@ var hiddenBlocks = $('.hidden-blocks');
 
 hiddenBlocks.hide();
 
+var div = timeBlocksContEl.append(div);
+var row = div.append(div);
+row.addClass("row");
+var hourBlock = row.append(div);
+hourBlock.addClass("hour");
+var past = row.append(div);
+past.addClass("past");
+var tense = past.append(textarea);
+var btnBlock = 
+var button = row.append(button);
+button.addClass("saveBtn");
 
 
 function createBlocks() {
