@@ -4,19 +4,19 @@ var timeBlocksContEl = $('.container');
 var currentDay = $('#currentDay');
 var hiddenBlocks = $('.hidden-blocks');
 
-hiddenBlocks.hide();
+//hiddenBlocks.hide();
 
 var div = timeBlocksContEl.append(div);
 var row = div.append(div);
-row.addClass("row");
+row.addClass("row col-12");
 var hourBlock = row.append(div);
-hourBlock.addClass("hour");
-var past = row.append(div);
-past.addClass("past");
-var tense = past.append(textarea);
-var btnBlock = 
-var button = row.append(button);
-button.addClass("saveBtn");
+hourBlock.addClass("hour col-3");
+var tenseBlock = row.append(div);
+tenseBlock.addClass("past col-6");
+//var tense = tenseBlock.append(p);
+var btnBlock = row.append(div)
+btnBlock.addClass("saveBtn col-3");
+//var button = btnBlock.append(button);
 
 
 function createBlocks() {
